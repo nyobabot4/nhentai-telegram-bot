@@ -1,5 +1,5 @@
 export default {
-	bot_username: 'nhentai_searchbot',
+	bot_username: 'manga018_bot',
 	// This will be used to sign telegra.ph pages,
 
 	api_enabled: true,
