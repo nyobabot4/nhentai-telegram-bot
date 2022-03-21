@@ -7,8 +7,8 @@ export default {
 
 	donation_wallets: [
 		{
-			name:	 'Kontolodon',
-			address: '',
+			name:	 'Owner',
+			address: 'Gawr Project',
 		}
 	],
 	// Add donation message to /help command with donation_wallets,
