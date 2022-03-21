@@ -1,5 +1,5 @@
 export default {
-	bot_username: 'nhentai_searchbot',
+	bot_username: 'manga018_bot',
 	// This will be used to sign telegra.ph pages,
 
 	api_enabled: true,
@@ -7,8 +7,8 @@ export default {
 
 	donation_wallets: [
 		{
-			name:	 'Monero',
-			address: '85DLifC32dN3cYSBjF8ShgSYn6KD7WPAoSXEATyEVnQZW5mFxJDnMNacBvJ1qLHgVxjKQUXikb7cU4WXzp1Zc4gwMWDgMB8',
+			name:	 'Kontolodon',
+			address: '',
 		}
 	],
 	// Add donation message to /help command with donation_wallets,
@@ -16,7 +16,7 @@ export default {
 	express_get_slash:                 'Hello, love <3',
 	text_at_the_end_of_telegraph_page: 'Thanks for reading this chapter!',
 
-	pages_to_show_fix_button: 100,
+	pages_to_show_fix_button: 30,
 	// the number of pages in the manga required to add \'fix\' button to message.,
 
 	maximum_codes_from_one_message: 30,
