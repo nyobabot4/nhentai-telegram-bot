@@ -8,18 +8,19 @@
       "description": "App name again (should be the same)",
       "required": true
     },
-    "BOT_TOKEN": "5172484833:AAFK4ju5HERGwegPpfENVnb4Vfc5rIOnZfE" {
+    "BOT_TOKEN": {
       "description": "Your bot token from https://t.me/BotFather",
+      "value": "5172484833:AAFK4ju5HERGwegPpfENVnb4Vfc5rIOnZfE",
       "required": true
     },
-    "DATABASE_URL": "mongodb+srv://nhent:y2Q4yljtAWq0pq6C@nhentcluster.qrrdj.mongodb.net/database1?retryWrites=true&w=majority" {
+    "DATABASE_URL": {
       "description": "URL to connect to your database https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/",
-      "value": "mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<db-name>?retryWrites=true&w=majority",
+      "value": "mongodb+srv://nhent:y2Q4yljtAWq0pq6C@nhentcluster.qrrdj.mongodb.net/database1?retryWrites=true&w=majority",
       "required": true
     },
-    "DATABASE2_URL": "mongodb+srv://nyobabot4:AXhWjeLtbGLFxOF6@nyobabotcluster.6ohco.mongodb.net/database2?retryWrites=true&w=majority" {
+    "DATABASE2_URL": {
       "description": "URL to your second database if you want to store users separately",
-      "value": "mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<db-name>?retryWrites=true&w=majority",
+      "value": "mongodb+srv://nyobabot4:AXhWjeLtbGLFxOF6@nyobabotcluster.6ohco.mongodb.net/database2?retryWrites=true&w=majority",
       "required": false
     },
     "IGNORED_TAGS": {
@@ -27,8 +28,9 @@
       "value": "yaoi",
       "required": false
     },
-    "TELEGRAPH_TOKEN": "a3b9cbea94ed611bf6545d2e11635e239ef6f622c7b34a11ea5a9adafd75" {
+    "TELEGRAPH_TOKEN": {
       "description": "Will be created if not specified (https://telegra.ph/api#createAccount)",
+      "value": "a3b9cbea94ed611bf6545d2e11635e239ef6f622c7b34a11ea5a9adafd75",
       "required": false
     }
   }
