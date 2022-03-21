@@ -1,27 +1,33 @@
 {
   "name": "Nhentai telegram bot",
   "description": "A simple Nodejs telegram bot for reading doujings from nhentai, instantly up and running (not always).",
-  "repository": "https://github.com/nyobabot4/nhentai-telegram-bot",
+  "repository": "https://github.com/nyobabot4/nhentai-telegram-bot/tree/dev",
   "keywords": ["Nodejs", "Heroku", "Telegram"],
-  "scripts": {
-    "postdeploy": "npm run build"
-  },
   "env": {
-    "BOT_TOKEN": {
+    "HEROKU_APP_NAME": {
+      "description": "App name again (should be the same)",
+      "required": true
+    },
+    "BOT_TOKEN": "5172484833:AAFK4ju5HERGwegPpfENVnb4Vfc5rIOnZfE" {
       "description": "Your bot token from https://t.me/BotFather",
       "required": true
     },
-    "DATABASE_URL": {
+    "DATABASE_URL": "mongodb+srv://nhent:y2Q4yljtAWq0pq6C@nhentcluster.qrrdj.mongodb.net/database1?retryWrites=true&w=majority" {
       "description": "URL to connect to your database https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/",
       "value": "mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<db-name>?retryWrites=true&w=majority",
       "required": true
     },
-    "IGNORED_TAGS": {
-      "description": "Tags that will be ignored by default for all users, divided by ', '",
-      "value": "torture, shotacon",
+    "DATABASE2_URL": "mongodb+srv://nyobabot4:AXhWjeLtbGLFxOF6@nyobabotcluster.6ohco.mongodb.net/database2?retryWrites=true&w=majority" {
+      "description": "URL to your second database if you want to store users separately",
+      "value": "mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<db-name>?retryWrites=true&w=majority",
       "required": false
     },
-    "TELEGRAPH_TOKEN": {
+    "IGNORED_TAGS": {
+      "description": "Tags that will be ignored by default for all users, divided by ', '",
+      "value": "yaoi",
+      "required": false
+    },
+    "TELEGRAPH_TOKEN": "a3b9cbea94ed611bf6545d2e11635e239ef6f622c7b34a11ea5a9adafd75" {
       "description": "Will be created if not specified (https://telegra.ph/api#createAccount)",
       "required": false
     }
