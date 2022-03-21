@@ -83,8 +83,8 @@ export default {
 	`• Для того чтобы открыть определенную мангу просто отправь мне ссылку или код
 	• Так же возможно загрузить картинки в .zip файле с помощью /zip команды. Например: <code>/zip 234638</code>
 	
-	<a href="https://github.com/iamdowner/nhentai-telegram-bot">GitHub</a>`,
-	donation_message: 'Support this instance:',
+	`,
+	donation_message: '',
 	search_tips:
 	`<b>Поиск</b>
 	• Ты можешь изменить порядок результатов если добавишь <code>/s</code><I>p</i> перед поисковым запросом, где <i>p</i> - означает по <b>п</b>опулярности или <i>n</i> - по дате, например: <code>/sp sex toys</code>
