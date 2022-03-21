@@ -82,7 +82,6 @@ export default {
 	help:
 	`• To open a specific doujin just send me nhentais link or nuclear code
 	• Also you can download images in .zip file with /zip command. For example: <code>/zip 234638</code>,
-
 	`,
 	donation_message: '',
 	search_tips:
