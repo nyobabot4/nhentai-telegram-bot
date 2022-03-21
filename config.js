@@ -18,7 +18,7 @@ export default {
 	pages_to_show_fix_button: 100,
 	// the number of pages in the manga required to add \'fix\' button to message.,
 
-	maximum_codes_from_one_message: 30,
+	maximum_codes_from_one_message: 100,
 
 	show_favorites_as_gallery: false,
 	show_history_as_gallery:   false,
