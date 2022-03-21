@@ -7,7 +7,7 @@ export default {
 
 	donation_wallets: [
 		{
-			name:	 'Owner',
+			name:	 'Owner ',
 			address: 'Gawr Project',
 		}
 	],
@@ -16,7 +16,7 @@ export default {
 	express_get_slash:                 'Hello, love <3',
 	text_at_the_end_of_telegraph_page: 'Thanks for reading this chapter!',
 
-	pages_to_show_fix_button: 30,
+	pages_to_show_fix_button: 100,
 	// the number of pages in the manga required to add \'fix\' button to message.,
 
 	maximum_codes_from_one_message: 30,
