@@ -83,8 +83,8 @@ export default {
 	`• Para abrir un doujin en específico solo envíame el link de nhentai o el código nuclear
 	• También puedes descargar imágenes en archivos .zip con el comando /zip. Por ejemplo: <code>/zip 234638</code>
 	
-	<a href="https://github.com/iamdowner/nhentai-telegram-bot">GitHub</a>`,
-	donation_message: 'Apoya esta instancia::',
+	`,
+	donation_message: '',
 	search_tips: 
 `  <b>Buscar</b>
 	• Puedes cambiar la clasificación de la búsqueda añadiendo <code>/s</code><I>p</i> antes de lo que quieres buscar, dónde <i>p</i> - significa <b>p</b>opular o <i>n</i> - <b>n</b>ew, por ejemplo: <code>/sp sex toys</code>
